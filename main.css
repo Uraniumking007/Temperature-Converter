@@ -1,5 +1,6 @@
 body {
     background-color: azure;
+    margin: 0%;
 }
 
 .main {
@@ -38,14 +39,15 @@ input[placeholder]    {
     text-align: center;
     /* opacity: 1; */
 }
-div.header{
+.header{
     background-color: blue;
     height: 10%;
     text-decoration-color: #ffffff;
     font: bold;
     font-size: xx-large;
-    /* font-style: italic; */
-    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    column-gap: 0px;
 }
 p.header-text{
     text-align: center;
