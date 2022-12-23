@@ -1,17 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
     background-color: azure;
     margin: 0%;
 }
-
-.main {
+div.container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding-right: 1rem;
+    margin: auto;
+}
+    .main {
     margin: 5rem;
     border-radius: 0px;
+}
+img{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
 }
 /*form{
     display: inline-block;
 }*/
 
+
 input[type=number]:focus {
+    outline: none;
     border: 0px solid #fff;
 }
 
@@ -53,4 +67,13 @@ p.header-text{
     text-align: center;
     padding-top: 1.2%;
     color: #ffffff;
+}
+.added-text{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
