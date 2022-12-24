@@ -1,4 +1,3 @@
-
 function temperatureF(far) {
   var a = (far - 32) / 1.8;
   var k = a + 273;
