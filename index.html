@@ -2,7 +2,7 @@
 <title>Temperature Converter</title>
 
 <body>
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="style.css" />
   <section class="header">
     <p class="header-text">
       Temperature Converter
@@ -12,17 +12,28 @@
   <div class="main">
     <form>
       <!-- <label> Fahrenheit: </label> -->
-      <input id="Fahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureF(this.valueAsNumber)" />
+      <div class="container">
+
+        <input id="Fahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureF(this.valueAsNumber)" />
+        <div class="added-text"> °F </div>
+      </div>
       <hr>
       <!-- <label>Celcius: </label> -->
-      <input type="number" id="Celcius" placeholder="Celcius" oninput="temperatureC(this.valueAsNumber)" />
+      <div class="container">
+        
+        <input type="number" id="Celcius" placeholder="Celcius" oninput="temperatureC(this.valueAsNumber)" />
+        <div class="added-text"> °C </div>
+      </div>
       <hr>
       <!-- <label>Kelvin:</label> -->
-      <input type="number" id="kelvin" placeholder="Kelvin" oninput="temperatureK(this.valueAsNumber)" />
-    </form>
+      <div class="container">
+        <input type="number" id="kelvin" placeholder="Kelvin" oninput="temperatureK(this.valueAsNumber)" />
+        <div class="added-text"> K </div>
+      </div>
+      </form>
   </div>
 
-  <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
